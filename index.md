@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome The Join The Programming Side's Website
 
 You can use the [editor on GitHub](https://github.com/JoinTheProgrammingSide/JoinTheProgrammingSide.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
