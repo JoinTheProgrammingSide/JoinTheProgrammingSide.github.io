@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>S01ar Sys | Currency Conversion</title>
+        <link rel="stylesheet" href="translation.css">
+    </head>
+    <body>
+        <style>
+
+        </style>
+
+        <div id="header">
+            <header>
+                <a onclick="window.location='./'"><h1>S01ar Sys</h1></a>
+            </header>
+            <div id="nav">
+                <button id="navBtn"></button>
+                <div id="menu">
+                    <button id="navClose">X</button>
+                    <ul>
+                        <li>
+                            <a href="pwd.html"><i>Imagio</i>Pwd Manager</a>
+                        </li>
+                        <li>
+                            <a href="currency.html"><i>Imagio</i>Currency Conversion</a>
+                        </li>
+                        <li>
+                            <a href="note.html"><i>Imagio</i>Note Pad</a>
+                        </li>
+                        <li>
+                            <a href="measurement.html"><i>Imagio</i>Measurement Conversion</a>
+                        </li>
+                        <li>
+                            <a href="translation.html"><i>Imagio</i>Translation</a>
+                        </li>
+                        <li id="settings">
+                            <a href="settings.html"><i>Imagio</i>Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="main">
+            <h1>Currency Conversion</h1>
+            <div id="converter">
+                <select id="fromLang" name="fromLang">
+                    <option value="en">English</option>
+                    <option value="ar">Arabic (عربى)</option>
+                    <option value="zh">Chinese (中文)</option>
+                    <option value="fr">French (Français)</option>
+                    <option value="it">Italian (Italiano)</option>
+                    <option value="es">Spanish (Espanol)</option>
+                </select><br>
+                <select id="toLang" name="toLang">
+                    <option value="fr">French (Français)</option>
+                    <option value="ar">Arabic (عربى)</option>
+                    <option value="zh">Chinese (中文)</option>
+                    <option value="en">English</option>
+                    <option value="it">Italian (Italiano)</option>
+                    <option value="es">Spanish (Español)</option>
+                </select><br>
+                <textarea id="text" name="text" placeholder="Hello World!"></textarea><br>
+                <button id="translateBtn" name="translate">Translate</button><br>
+                <textarea name="output" id="output">Output</textarea>
+            </div>
+        </div>
+
+        <script src="translation.js"></script>
+    </body>
+</html>
